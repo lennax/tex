@@ -1,0 +1,41 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[latin1]{inputenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\author{Lenna X. Peterson}
+\title{Bayesian Probabilities}
+\begin{document}
+
+\maketitle
+
+\begin{equation}
+P(E) = P(H,E) + P(\neg H, E)
+\end{equation}
+
+The probability of the evidence is equal to the probability of a true positive and the probability of a false positive.
+
+The chance of a positive test result is equal to the probability of a true positive and the probability of a false positive.
+
+\begin{equation}
+P(E|H) = \frac{P(H,E)}{P(H)}
+\end{equation}
+
+The sensitivity is equal to the probability of a true positive divided by the probability of the hypothesis.
+
+The probability of a positive test result given cancer is equal to the probability of a true positive divided by the probability of cancer.
+
+\begin{align}
+P(H|E) &= \frac{P(H,E)}{P(E)} \\
+&= \frac{P(E|H) \times P(H)}{P(E)}
+\end{align}
+
+The probability of the hypothesis given the evidence is equal to the probability of a true positive divided by the probability of the evidence. 
+
+The probability of the hypothesis given the evidence is equal to the sensitivity times the probability of the hypothesis divided by the probability of the evidence.
+
+The probability of having cancer given a positive test result is equal to the probability of a true positive divided by the probability of a positive test result.
+
+The probability of having cancer given a positive test result is equal to the sensitivity times the probability of cancer divided by the probability of a positive test result.
+
+\end{document}
