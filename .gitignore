@@ -1,4 +1,20 @@
+# Standard LaTex
 *.aux
 *.log
+*.nav
 *.pdf
 *.synctex.gz
+# Beamer
+*.out
+*.snm
+*.toc
+# BibLaTeX
+*blx.bib
+*.run.xml
+*.bbl
+*.blg
+# JabRef
+*.bib.bak
+# Latexmk
+*.fdb_latexmk
+*.fls
